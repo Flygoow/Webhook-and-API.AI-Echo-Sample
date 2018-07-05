@@ -23,7 +23,7 @@ restService.post("/echo", function(req, res) {
   return res.json({
     speech: speech,
     displayText: speech,
-    source: "webhook-echo-sample"
+    source: "cod-forlan-web"
   });
 });
 
@@ -188,7 +188,7 @@ restService.post("/slack-test", function(req, res) {
   return res.json({
     speech: "speech",
     displayText: "speech",
-    source: "webhook-echo-sample",
+    source: "cod-forlan-web",
     data: {
       slack: slack_message
     }
